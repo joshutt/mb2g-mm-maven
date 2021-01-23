@@ -11,8 +11,6 @@
 
     <artifactId>web-api</artifactId>
 
-    <packaging>jar</packaging>
-
     <properties>
         <jaxb.version>2.3.0</jaxb.version>
     </properties>
@@ -45,21 +43,6 @@
                     <execution>
                         <goals>
                             <goal>generate</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
-
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-clean-plugin</artifactId>
-                <version>3.1.0</version>
-                <executions>
-                    <execution>
-                        <id>auto-clean</id>
-                        <phase>initialize</phase>
-                        <goals>
-                            <goal>clean</goal>
                         </goals>
                     </execution>
                 </executions>

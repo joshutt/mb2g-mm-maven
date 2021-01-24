@@ -37,6 +37,7 @@
                     <flattenMode>bom</flattenMode>
                 </configuration>
                 <executions>
+                    <!-- enable flattening -->
                     <execution>
                         <id>flatten</id>
                         <phase>process-resources</phase>
